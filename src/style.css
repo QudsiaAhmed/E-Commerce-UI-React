@@ -1,0 +1,77 @@
+.chat-container {
+    border-radius: 10px;
+    display: flex;
+    color: #fff;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.chat-header {
+    line-height: 6rem;
+    margin: 0.5rem 0;
+}
+
+/* For screens larger than 960px (large screens) */
+@media (min-width: 961px) {
+    .chat-box {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .chat-container {
+        margin-left: 4rem; 
+    }
+}
+
+/* For screens below 601px (small screens) */
+@media (max-width: 600px) {
+    .chat-box {
+        margin: 0; 
+    }
+
+    .chat-container {
+        font-size: 18px; 
+        margin: 0 1rem;
+    }
+
+    .chat-header {
+        line-height: 4rem; 
+    }
+
+    .chat-box img {
+        max-width: 100%;
+        height: auto; 
+    }
+}
+
+
+
+
+
+
+/* Center the image on small screens */
+@media (max-width: 600px) {
+    .image-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container {
+        width: 100%;
+        max-width: 360px;
+        margin : 2rem 0; 
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+
+
+
+  
